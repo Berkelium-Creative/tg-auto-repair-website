@@ -1,47 +1,132 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "T&G Auto Repair",
+  "tagline": "Family-run auto shop on W Burbank Blvd.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "eyebrow": "BURBANK · 4.9 × 18",
+    "heading": "The honest auto shop on Burbank Blvd.",
+    "subheading": "Family-owned shop on West Burbank Boulevard. Diagnostic, brakes, suspension, oil & service — open six days a week, written quote on every job.",
+    "ctaText": "Call for a quote",
+    "ctaLink": "tel:8188421590",
+    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193c?w=1800&q=80&auto=format&fit=crop"
   },
   "about": {
-    "heading": "About Us",
+    "label": "The shop",
+    "heading": "Family shop. No upsells. Open Saturday morning.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "T&G has been on West Burbank Boulevard since 1998. Husband-and-wife operation with two lifts, a senior technician on every job, and a service writer who answers the phone himself.",
+      "We do the day-one repairs and the routine maintenance — brakes, oil, fluids, tires, alignment, suspension, AC service. Anything more specialized than that we refer to a friend's shop we trust.",
+      "Closed Sundays. Saturday we open at seven and close at three. The kitchen across the parking lot makes a great breakfast burrito while you wait."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Diagnostic",
+      "description": "OBD scan, live data, road test if needed. Printed report. Free with any repair we perform.",
+      "price": "$75"
+    },
+    {
+      "title": "Brakes",
+      "description": "Pads, rotors, calipers, fluid. Spec-matched friction. Bedded-in on the road before delivery.",
+      "price": "from $385"
+    },
+    {
+      "title": "Oil + 20-point Inspection",
+      "description": "Synthetic-blend or full-synthetic, OEM filter, top-offs, documented 20-point check.",
+      "price": "from $79"
+    },
+    {
+      "title": "Tires + Alignment",
+      "description": "Four tires mounted and balanced plus four-wheel alignment. We carry Michelin, Continental, Falken.",
+      "price": "from $640"
+    },
+    {
+      "title": "Suspension",
+      "description": "Struts, shocks, control arms, bushings. Four-wheel alignment after every install.",
+      "price": "from $485"
+    },
+    {
+      "title": "AC Service",
+      "description": "Diagnostic, leak check, evac-and-recharge. EPA-certified. Get it done before summer.",
+      "price": "from $145"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Karen W.",
+      "rating": 5,
+      "context": "Twelve-year customer",
+      "text": "T&G is the only shop in Burbank I trust with both family cars. They have never recommended a service we didn't need and they have never missed one we did. The bill is always exactly what was quoted."
+    },
+    {
+      "name": "Ross D.",
+      "rating": 5,
+      "context": "Honda Accord 2009",
+      "text": "Came in for what I thought was an expensive transmission job. T&G diagnosed it as a fifty-dollar mount, did the work the same afternoon, and saved me a thousand-dollar repair. Real shop."
+    },
+    {
+      "name": "Lupita G.",
+      "rating": 5,
+      "context": "First-time customer",
+      "text": "Walked in for a brake job and walked out feeling like I'd met two friends. The shop is family-run and it feels like a family. Cars are safer there than at any chain in town."
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 842-1590",
+    "email": "hello@tgautorepair.com",
+    "address": "1525 W Burbank Blvd, Burbank, CA 91506",
+    "mapEmbedQuery": "T&G Auto Repair, 1525 W Burbank Blvd, Burbank, CA 91506",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
+      "Monday": "7:00 AM – 7:00 PM",
+      "Tuesday": "7:00 AM – 7:00 PM",
+      "Wednesday": "7:00 AM – 7:00 PM",
+      "Thursday": "7:00 AM – 7:00 PM",
+      "Friday": "7:00 AM – 7:00 PM",
+      "Saturday": "7:00 AM – 3:00 PM",
       "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    }
   },
+  "social": {},
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "T&G Auto Repair — Honest family auto shop in Burbank",
+    "description": "A husband-and-wife auto shop on West Burbank Boulevard since 1998. Diagnostic, brakes, oil, tires, suspension. Written quotes free. Open six days.",
+    "keywords": [
+      "Burbank auto repair",
+      "W Burbank Blvd mechanic",
+      "family-owned auto shop Burbank",
+      "honest mechanic Burbank"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "primaryColor": "#3F4734",
+    "accentColor": "#9A3412",
+    "fontFamily": "tradewinds-outfit-robotomono"
+  },
+  "designSystem": {
+    "searchQuery": "fleet utility family auto shop tank green rust olive cream",
+    "styleName": "Fleet Utility (tank green + rust)",
+    "pattern": "Hero + Features + CTA · split",
+    "palette": {
+      "primary": "#3F4734",
+      "secondary": "#A8A29E",
+      "cta": "#9A3412",
+      "accent": "#9A3412",
+      "background": "#F8F4EB",
+      "text": "#1C1917",
+      "muted": "#78716C",
+      "border": "#1C1917",
+      "surface": "#FEFBF5"
+    },
+    "typography": {
+      "heading": "Trade Winds",
+      "body": "Outfit",
+      "label": "Roboto Mono",
+      "mood": "fleet utility, tank green, rust signal, family auto, retro sign-painter"
+    },
+    "moves": [
+      "Trade Winds Western retro display (slab/condensed combo) — sign-painter feel",
+      "Tank-green + rust palette — distinct from all five prior autos",
+      "Visit block on rust with tank-green secondary — first rust-primary visit slab",
+      "// mono // forklift-tape system carries through every section"
+    ]
   }
 }
